@@ -4,6 +4,12 @@
 
 Extract the entire ZIP and run **Marketplace.exe**. Unity is not required. The public client is a **release build**, with Development Build, script debugging and profiler connection disabled.
 
+## Automatic updates
+
+Install version **2026.11.26.1** manually once if you are using an older build. After that, Marketplace checks for newer clients at startup and every 30 minutes, downloads verified updates automatically, and offers **Restart to update**. Updates wait until games and downloads are closed. Saves, profiles and installed games are preserved. You can disable automatic downloads or check manually under **Settings → Updates**.
+
+Game packages update separately: changed installed games show **Update** in **Downloads**, with a notification in Marketplace. Select Update to install the latest package and keep your saves. A game that requires a newer client asks you to update Marketplace first.
+
 ## Included dashboards
 
 Original Xbox 5960, Xbox 360 Blades, NXE, Kinect and Metro are included in the client. Open **Dashboards → Play**. The Metro avatar editor is included too. No separate dashboard download or package installation is needed. Personal profiles, saves and writable console disks stay in your user data folder.
@@ -23,4 +29,3 @@ Update both the client and the affected game package. Replacements are published
 Bully r3 shortens joined-checkpoint paths and offers **JOIN WITHOUT CHECKPOINT**, which uses an isolated copy of your own progress without requesting the host save. Repeated failed mission starts return to Marketplace with recovery guidance. **Full Bully campaign synchronization remains incomplete**; differing campaign progress can still prevent joining. This is not a verified four-player campaign release.
 
 Windows x64 and the [Microsoft Visual C++ x64 runtime](https://learn.microsoft.com/en-us/cpp/windows/latest-supported-vc-redist) are required. Instructions and SHA-256 checksums accompany each release. Personal saves and account profiles are not distributed.
-
