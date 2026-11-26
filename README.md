@@ -6,7 +6,7 @@ Extract the entire ZIP and run **Marketplace.exe**. Unity is not required. The p
 
 ## Automatic updates
 
-Install version **2026.11.26.1** manually once if you are using an older build. After that, Marketplace checks for newer clients at startup and every 30 minutes, downloads verified updates automatically, and offers **Restart to update**. Updates wait until games and downloads are closed. Saves, profiles and installed games are preserved. You can disable automatic downloads or check manually under **Settings → Updates**.
+Install the **latest client** manually once if you are using a build older than **2026.11.26.1**. After that, Marketplace checks for newer clients at startup and every 30 minutes, downloads verified updates automatically, and offers **Restart to update**. Updates wait until games and downloads are closed. Saves, profiles and installed games are preserved. You can disable automatic downloads or check manually under **Settings → Updates**.
 
 Game packages update separately: changed installed games show **Update** in **Downloads**, with a notification in Marketplace. Select Update to install the latest package and keep your saves. A game that requires a newer client asks you to update Marketplace first.
 
@@ -29,3 +29,10 @@ Update both the client and the affected game package. Replacements are published
 Bully r3 shortens joined-checkpoint paths and offers **JOIN WITHOUT CHECKPOINT**, which uses an isolated copy of your own progress without requesting the host save. Repeated failed mission starts return to Marketplace with recovery guidance. **Full Bully campaign synchronization remains incomplete**; differing campaign progress can still prevent joining. This is not a verified four-player campaign release.
 
 Windows x64 and the [Microsoft Visual C++ x64 runtime](https://learn.microsoft.com/en-us/cpp/windows/latest-supported-vc-redist) are required. Instructions and SHA-256 checksums accompany each release. Personal saves and account profiles are not distributed.
+
+## Xbox One, Xbox Series X|S and coming-soon listings
+
+Client **2026.11.26.2** adds Xbox One and Xbox Series X|S catalogue categories. GTA 6 appears under Xbox Series X|S with the supplied cover and **Coming soon** visible throughout its short cover animation. This is a catalogue preview; it does not download or install GTA 6 or add Xbox One/Series game execution. Existing game packages are unchanged.
+
+Coming-soon entries use a separate `upcoming` catalogue array so older clients can continue reading the five published game downloads. Upgrade the client to see the new categories and preview. The original Xbox One dashboard is not implemented or included; any future working version will be a separate download.
+
